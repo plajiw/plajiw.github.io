@@ -1,0 +1,13 @@
+# Pasta de configurações do Visual Studio Code (opcional)
+.vscode/
+
+# Caso utilize o npm para gerenciar pacotes, ignore a pasta de módulos
+node_modules/
+
+# Arquivos de cache ou temporários do sistema
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# Arquivos de log ou temporários, se houver
+*.log
+*.tmp

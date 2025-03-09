@@ -1,2 +1,324 @@
-<h1>Hello :)</h1>
-<h2>Vitória gatinha <3</h2>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Melhoria: Meta description para SEO -->
+    <meta name="description"
+        content="Portfólio de Pablo Ribeiro, estudante de Ciências da Computação focado em programação competitiva e desenvolvimento ASP.NET. Explore projetos, habilidades e formas de contato." />
+
+    <!-- Título mais descritivo -->
+    <title>Portfólio de Pablo Ribeiro — Desenvolvedor & Estudante de Computação</title>
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <!-- Melhoria: caso deseje, inclua seu nome/branding aqui ou no topo do menu -->
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#education">Educação</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#certificates">Certificados</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Início do Conteúdo Principal -->
+    <main>
+        <!-- Home Section (Mais Minimalista) -->
+        <section id="home" class="home">
+            <div class="container">
+                <div class="home-top">
+                    <!-- Nome e Função em destaque -->
+                    <h1 class="main-name">Pablo Ribeiro</h1>
+                    <p class="role">Desenvolvedor & Cientista da Computação</p>
+                    <p class="location">Goiânia, GO – PUC Goiás</p>
+                </div>
+
+                <div class="home-bottom">
+                    <!-- Foto de perfil menor e links sociais -->
+                    <div class="profile-picture">
+                        <!-- Melhoria: alt text mais descritivo -->
+                        <img src="images/profile.jpg" alt="Foto de Pablo Ribeiro" />
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/plajiw" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pabloribeiroramos/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:pabloribeiro.cont@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">Sobre Mim</h2>
+                <div class="about-content">
+                    <!-- Texto levemente mais narrativo e humano -->
+                    <p>
+                        Sou estudante de Ciências da Computação na PUC Goiás, apaixonado por desafios e pelo universo
+                        dos algoritmos.
+                        Possuo experiência em programação competitiva com C/C++, o que me ajuda a desenvolver raciocínio
+                        lógico e
+                        soluções criativas para problemas complexos. Ao mesmo tempo, estou mergulhando no
+                        desenvolvimento ASP.NET,
+                        sempre buscando unir a precisão dos códigos à inovação em aplicações reais.
+                        Meu objetivo é continuar aprendendo, crescer como profissional e criar projetos que tenham um
+                        impacto
+                        positivo na vida das pessoas.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Habilidades Técnicas</h2>
+                <div class="skills-content">
+
+                    <!-- Linguagens de Programação -->
+                    <div class="skill-category">
+                        <h3>Linguagens de Programação</h3>
+                        <div class="skills-grid">
+
+                            <!-- Exemplo: mesclar % e label textual -->
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <div class="skill-name">C/C++ (Avançado)</div>
+                                    <div class="skill-percentage">90%</div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <div class="skill-name">C# (Intermediário)</div>
+                                    <div class="skill-percentage">70%</div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 70%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <div class="skill-name">JavaScript (Intermediário)</div>
+                                    <div class="skill-percentage">60%</div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 60%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <div class="skill-name">HTML/CSS (Intermediário)</div>
+                                    <div class="skill-percentage">70%</div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks & Ferramentas -->
+                    <div class="skill-category">
+                        <h3>Frameworks & Ferramentas</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <div class="skill-name">ASP.NET (Básico/Intermediário)</div>
+                                    <div class="skill-percentage">60%</div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 60%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <div class="skill-name">Git (Intermediário)</div>
+                                    <div class="skill-percentage">80%</div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <div class="skill-name">Visual Studio (Intermediário)</div>
+                                    <div class="skill-percentage">80%</div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education">
+            <div class="container">
+                <h2 class="section-title">Educação</h2>
+                <div class="education-content">
+                    <div class="education-item">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="education-info">
+                            <h3>Bacharelado em Ciências da Computação</h3>
+                            <p class="institution">
+                                Pontifícia Universidade Católica de Goiás (PUC-GO)
+                            </p>
+                            <p class="period">2024 - Presente</p>
+                            <p class="description">
+                                Foco em algoritmos, estruturas de dados e programação competitiva.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section (Melhorado) -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Meus Projetos</h2>
+                <div class="projects-header">
+                    <p class="projects-subtitle">Projetos do GitHub</p>
+                    <div class="projects-filter">
+                        <button class="filter-btn active" data-filter="all">Todos</button>
+                        <button class="filter-btn" data-filter="C++">C++</button>
+                        <button class="filter-btn" data-filter="JavaScript">JavaScript</button>
+                        <button class="filter-btn" data-filter="C#">C#</button>
+                    </div>
+                </div>
+                <div id="github-projects" class="projects-grid">
+                    <!-- Projetos do GitHub serão carregados aqui via JavaScript -->
+                    <div class="loading-spinner">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Carregando projetos...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="certificates">
+            <div class="container">
+                <h2 class="section-title">Certificados & Cursos</h2>
+                <div class="certificates-content">
+
+                    <!-- 1º Certificado -->
+                    <div class="certificate-item">
+                        <div class="certificate-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="certificate-info">
+                            <h3>Algoritmos e Lógica de Programação</h3>
+                            <p class="institution">Udemy</p>
+                            <p class="date">Janeiro de 2024</p>
+                            <a class="certificate"
+                                href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-8f77acd5-414f-4842-a3d3-f8cdb5cd1a37.pdf"
+                                target="_blank">
+                                Certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contato</h2>
+                <div class="contact-content">
+                    <!-- Melhoria: breve convite ao contato -->
+                    <p style="text-align:center; margin-bottom: 2rem;">
+                        Ficou interessado no meu trabalho ou quer saber mais? Entre em contato!
+                    </p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>pabloribeiro.cont@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <p>
+                                <a href="https://github.com/plajiw" target="_blank">
+                                    github.com/plajiw
+                                </a>
+                            </p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <p>
+                                <a href="https://www.linkedin.com/in/pabloribeiroramos/" target="_blank">
+                                    LinkedIn
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Fim do Conteúdo Principal -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Pablo Ribeiro. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script Principal -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
