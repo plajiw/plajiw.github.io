@@ -135,38 +135,53 @@ section {
     transition: all 0.3s ease;
 }
 
-.nav {
+/* Centraliza o conteúdo da header */
+.header .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    /* Conteúdo centralizado */
     align-items: center;
     height: 70px;
+    position: relative;
+    /* Para posicionar o tema à direita */
 }
 
+/* A nav ficará centralizada dentro do container */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Lista de links centralizada */
 .nav-links {
     display: flex;
+    gap: 25px;
 }
 
-.nav-links li {
-    margin-left: 25px;
-}
-
-.nav-links a {
-    font-weight: 500;
-    transition: color 0.3s;
+/* Remove o margin-left original do tema e o posiciona à direita */
+.theme-toggle {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
     color: var(--text-secondary);
+    border: 1px solid var(--text-secondary);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    /* Cantos quadrados com leve arredondamento */
+    transition: all 0.3s ease;
 }
 
-.nav-links a:hover {
+.theme-toggle:hover {
+    border-color: var(--primary-color);
     color: var(--primary-color);
 }
 
-/* Tema-toggle e hamburger */
-.theme-toggle {
-    margin-left: 20px;
-    cursor: pointer;
-    color: var(--text-secondary);
-}
-
+/* Hamburger permanece para responsividade */
 .hamburger {
     display: none;
     cursor: pointer;
@@ -180,6 +195,7 @@ section {
     margin: 5px 0;
     transition: all 0.3s ease;
 }
+
 
 /* ------------------------------ */
 /*            HOME SECTION        */
